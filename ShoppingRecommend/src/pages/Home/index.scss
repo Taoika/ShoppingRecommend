@@ -1,0 +1,28 @@
+.Home {
+    .body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-top: 100px;
+        .logo {
+            width: 100%;
+            text-align: center;
+            img {
+                width: 400px;
+            }
+        }
+        .Search_container {
+            width: 500px;
+            .search {
+                border-radius: 16px 0 0 16px;
+                padding: 4px 20px;
+            }
+            .ant-input-group-addon {
+                >.ant-input-search-button {
+                    border-radius: 0 16px 16px 0;
+                }
+            }
+        }
+    }
+}
