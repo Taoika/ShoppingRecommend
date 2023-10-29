@@ -1,0 +1,12 @@
+.SearchBar {
+    width: 500px;
+    .ant-input-search >.ant-input-group {
+        .search {
+            border-radius: 16px 0 0 16px;
+            padding: 4px 20px;
+        }
+        >.ant-input-group-addon .ant-input-search-button {
+            border-radius: 0 16px 16px 0;
+        }
+    }
+}

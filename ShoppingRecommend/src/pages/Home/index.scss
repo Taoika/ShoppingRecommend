@@ -12,17 +12,5 @@
                 width: 400px;
             }
         }
-        .Search_container {
-            width: 500px;
-            .search {
-                border-radius: 16px 0 0 16px;
-                padding: 4px 20px;
-            }
-            .ant-input-group-addon {
-                >.ant-input-search-button {
-                    border-radius: 0 16px 16px 0;
-                }
-            }
-        }
     }
 }

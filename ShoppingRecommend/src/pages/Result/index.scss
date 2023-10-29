@@ -1,0 +1,35 @@
+.Result {
+    width: 100%;
+    .top {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        padding-top: 10px;
+        border-bottom: 1px solid rgba(0,0,0,.2);
+        .logo {
+            margin: 0 10px 0 10px;
+            img {
+                width: 100px;
+            }
+        }
+    }
+
+    .middle {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: calc(100vh - 74px);
+        .left {
+            height: 100%;
+            width: 120px;
+        }
+        .body {
+            box-sizing: border-box;
+            width: calc(100% - 120px);
+            height: 100%;
+            padding-left: 10px;
+            background-color: #fff;
+        }
+    }
+}

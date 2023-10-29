@@ -14,7 +14,7 @@ const routes = [
     },
     {
         path: '/',
-        element: <Home />,
+        element: <Result />,
     },
 ]
 
